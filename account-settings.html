@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Account Settings | MyTA</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Slicknav Css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!--Fonts-->
+    <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="assets/fonts/simple-line-icons.css">    
+     
+    <!-- Extras -->
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/normalize.css">
+    
+
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/lightblue.css" media="screen" />       
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+    </script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+    </script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Header area wrapper starts -->
+    <header id="header-wrap">      
+      <!-- Navbar Starts -->
+      <nav class="navbar navbar-expand-md fixed-top scrolling-navbar nav-bg">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png" alt="" class="hidden-xs">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>           
+          </div>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="message-center.html" id="account-notif">2</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="account-thumb"></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="account.html">Profile</a>
+                  <a class="dropdown-item" href="account-settings.html">Account Settings</a>
+                  <a class="dropdown-item" href="javascript:void(0);">Log Out</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Mobile Menu Start -->
+          <ul class="wpb-mobile-menu">
+            <li>
+              <a href="account.html">Profile</a> 
+            </li>
+            <li>
+              <a href="account-settings.html">Account Settings</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);">Log Out</a>
+            </li>
+          </ul>
+          <!-- Mobile Menu End -->
+        </div>
+      </nav>
+
+        <!-- Account Section -->
+    <!--<section id="account-content" class="section">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-4 block left-block">
+              <div id="settings-menu">
+                <ul>
+                  <li><a href="javascript:void(0);" class="this">Account Details</a></li>
+                  <li><a href="javascript:void(0);">Account Security</a></li>
+                  <li><a href="javascript:void(0);">Notifications</a></li>
+                </ul>
+                
+                </div>
+
+              </div>
+
+              <div class="col-sm-6 col-md-8 col-lg-8 block right-block">
+              <div id="settings-info">
+                
+              </div>
+            </div>
+              
+            </div>
+            
+        </div>
+        
+      </div>
+    </section>-->
+
+        <!-- Search Results Section -->
+    <section id="account-settings" class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+              <div class="row outbox">
+                <div style="width: 100%;">
+                    <ul id="settings-menu">
+                        <li><a href="account-settings.html" class="active">Details</a></li>
+                        <li><a href="account-security.html">Security</a></li>
+                        <li><a href="account-notifications.html">Notifications</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                  <div class="settings-fields">
+                  <div class="settings-field">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" value="John Doe">
+                  </div>
+                  <div class="settings-field">
+                  <label for="set-email">Email</label>
+                  <input type="email" id="set-email" value="john@johndoe.com">
+                  </div>
+                  <div class="settings-field">
+                  <label for="set-phone">Phone</label>
+                  <input type="phone" id="set-phone" value="9876543210">
+                  </div>
+                  <button type="submit">Save Changes</button>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+      <!-- Container Starts -->
+      <div class="container">
+        <!-- Row Starts -->
+        <div class="row section">
+          <!-- Footer Widget Starts -->
+          <div class="footer-widget col-sm-4 col-lg-3 col-xs-12">
+            <h3 class="small-title">
+              About
+            </h3>
+            <p></p> 
+            <ul>
+              <li><a href="how-it-works.html">How it works</a></li>
+              <li><a href="agent-sign-up.html">Travel Agent Sign up</a></li>
+              <li><a href="new-search.html">Search for travel agent</a></li>
+            </ul>
+          </div><!-- Footer Widget Ends -->
+          
+          <!-- Footer Widget Starts -->
+          <div class="footer-widget col-sm-4 col-lg-3 col-xs-12">
+            <h3 class="small-title">Help</h3>
+            <ul>
+              <li><a href="help.html">Help Center</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms-conditions.html">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <!-- Footer Widget Ends -->
+
+          <!-- Footer Widget Starts -->
+          <div class="footer-widget col-sm-4 col-lg-6 col-xs-12">
+            <p style="text-align: right;"><img src="assets/img/footer-logo.png"></p>
+          </div>
+          <!-- Footer Widget Ends -->
+
+        </div><!-- Row Ends -->
+      </div><!-- Container Ends -->
+      
+      <!-- Copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="copyright-text">
+                © 2018 MyTravelAgent All right reserved</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="social-footer text-right">
+                <a href="#"><i class="fa fa-facebook icon-round"></i></a>
+                <a href="#"><i class="fa fa-twitter icon-round"></i></a>
+                <a href="#"><i class="fa fa-linkedin icon-round"></i></a>
+                <a href="#"><i class="fa fa-google-plus icon-round"></i></a>
+              </div>       
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright  End-->
+      
+    </footer>
+    <!-- Footer Section End-->
+    
+    <!-- Go To Top Link -->
+    <!--<a href="#" class="back-to-top">
+      <i class="fa fa-angle-up">
+      </i>
+    </a>-->
+
+    <!-- JavaScript & jQuery Plugins -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/owl.carousel.js"></script> 
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/main.js"></script> 
+
+  </body>
+</html>
